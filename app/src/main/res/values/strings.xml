@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">My Application</string>
+
+    <string name="textview">Hello brotheeers</string>
+    <string name="button">Update The TextView</string>
+    <string name="action_settings">Settings</string>
+</resources>
