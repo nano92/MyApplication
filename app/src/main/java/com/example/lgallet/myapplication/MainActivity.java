@@ -170,7 +170,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
         //Test the button
 
-       // mainTextView.setText("Button pressed");
+        mainTextView.setText("Button pressed");
     }
 
     @Override
