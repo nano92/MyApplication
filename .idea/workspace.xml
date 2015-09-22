@@ -1,40 +1,665 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="AndroidLayouts">
-    <shared>
-      <config>
-        <devices>
-          <device id="Nexus 9" />
-        </devices>
-      </config>
-    </shared>
-    <layouts>
-      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
-        <config>
-          <theme>@style/AppTheme</theme>
-        </config>
-      </layout>
-    </layouts>
-  </component>
-  <component name="AndroidLogFilters">
-    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
-  </component>
   <component name="ChangeListManager">
-    <list default="true" id="eec16827-0be8-413a-aa2d-5a72d89df15a" name="Default" comment="">
+    <list default="true" id="1103aa65-f89a-4d14-96ff-d26c3ed831e1" name="Default" comment="">
       <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\.idea\MyApplication.iml" afterPath="" />
       <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\.idea\dictionaries\Lgallet.xml" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/.name" afterPath="$PROJECT_DIR$/.idea/.name" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/example/lgallet/myapplication/MainActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/lgallet/myapplication/MainActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MyApplication.iml" afterPath="$PROJECT_DIR$/MyApplication.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/app.iml" afterPath="$PROJECT_DIR$/app/app.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/gradle.xml" afterPath="$PROJECT_DIR$/.idea/gradle.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/runConfigurations.xml" afterPath="$PROJECT_DIR$/.idea/runConfigurations.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\build.gradle" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\build\generated\source\buildConfig\release\com\google\android\exoplayer\BuildConfig.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\build\intermediates\bundles\release\AndroidManifest.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\build\intermediates\bundles\release\aapt\AndroidManifest.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\build\intermediates\bundles\release\classes.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\build\intermediates\classes\release\com\google\android\exoplayer\AspectRatioFrameLayout.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\build\intermediates\classes\release\com\google\android\exoplayer\BehindLiveWindowException.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\build\intermediates\classes\release\com\google\android\exoplayer\BuildConfig.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\build\intermediates\classes\release\com\google\android\exoplayer\C.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\build\intermediates\classes\release\com\google\android\exoplayer\CodecCounters.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\build\intermediates\classes\release\com\google\android\exoplayer\CryptoInfo.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\build\intermediates\classes\release\com\google\android\exoplayer\DecoderInfo.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\build\intermediates\classes\release\com\google\android\exoplayer\DefaultLoadControl$1.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\build\intermediates\classes\release\com\google\android\exoplayer\DefaultLoadControl$EventListener.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\build\intermediates\classes\release\com\google\android\exoplayer\DefaultLoadControl$LoaderState.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\build\intermediates\classes\release\com\google\android\exoplayer\DefaultLoadControl.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\build\intermediates\classes\release\com\google\android\exoplayer\DummyTrackRenderer.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\build\intermediates\classes\release\com\google\android\exoplayer\ExoPlaybackException.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\build\intermediates\classes\release\com\google\android\exoplayer\ExoPlayer$ExoPlayerComponent.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\build\intermediates\classes\release\com\google\android\exoplayer\ExoPlayer$Factory.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\build\intermediates\classes\release\com\google\android\exoplayer\ExoPlayer$Listener.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\build\intermediates\classes\release\com\google\android\exoplayer\ExoPlayer.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\build\intermediates\classes\release\com\google\android\exoplayer\ExoPlayerImpl$1.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\build\intermediates\classes\release\com\google\android\exoplayer\ExoPlayerImpl.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\build\intermediates\classes\release\com\google\android\exoplayer\ExoPlayerImplInternal.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\build\intermediates\classes\release\com\google\android\exoplayer\ExoPlayerLibraryInfo.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\build\intermediates\classes\release\com\google\android\exoplayer\FrameworkSampleSource.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\build\intermediates\classes\release\com\google\android\exoplayer\LoadControl.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\build\intermediates\classes\release\com\google\android\exoplayer\MediaClock.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\build\intermediates\classes\release\com\google\android\exoplayer\MediaCodecAudioTrackRenderer$1.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\build\intermediates\classes\release\com\google\android\exoplayer\MediaCodecAudioTrackRenderer$2.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\build\intermediates\classes\release\com\google\android\exoplayer\MediaCodecAudioTrackRenderer$EventListener.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\build\intermediates\classes\release\com\google\android\exoplayer\MediaCodecAudioTrackRenderer.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\build\intermediates\classes\release\com\google\android\exoplayer\MediaCodecTrackRenderer$1.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\build\intermediates\classes\release\com\google\android\exoplayer\MediaCodecTrackRenderer$2.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\build\intermediates\classes\release\com\google\android\exoplayer\MediaCodecTrackRenderer$3.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\build\intermediates\classes\release\com\google\android\exoplayer\MediaCodecTrackRenderer$DecoderInitializationException.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\build\intermediates\classes\release\com\google\android\exoplayer\MediaCodecTrackRenderer$EventListener.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\build\intermediates\classes\release\com\google\android\exoplayer\MediaCodecTrackRenderer.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\build\intermediates\classes\release\com\google\android\exoplayer\MediaCodecUtil$1.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\build\intermediates\classes\release\com\google\android\exoplayer\MediaCodecUtil$CodecKey.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\build\intermediates\classes\release\com\google\android\exoplayer\MediaCodecUtil$DecoderQueryException.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\build\intermediates\classes\release\com\google\android\exoplayer\MediaCodecUtil$MediaCodecListCompat.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\build\intermediates\classes\release\com\google\android\exoplayer\MediaCodecUtil$MediaCodecListCompatV16.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\build\intermediates\classes\release\com\google\android\exoplayer\MediaCodecUtil$MediaCodecListCompatV21.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\build\intermediates\classes\release\com\google\android\exoplayer\MediaCodecUtil.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\build\intermediates\classes\release\com\google\android\exoplayer\MediaCodecVideoTrackRenderer$1.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\build\intermediates\classes\release\com\google\android\exoplayer\MediaCodecVideoTrackRenderer$2.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\build\intermediates\classes\release\com\google\android\exoplayer\MediaCodecVideoTrackRenderer$3.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\build\intermediates\classes\release\com\google\android\exoplayer\MediaCodecVideoTrackRenderer$EventListener.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\build\intermediates\classes\release\com\google\android\exoplayer\MediaCodecVideoTrackRenderer$FrameReleaseTimeHelper.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\build\intermediates\classes\release\com\google\android\exoplayer\MediaCodecVideoTrackRenderer.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\build\intermediates\classes\release\com\google\android\exoplayer\MediaFormat.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\build\intermediates\classes\release\com\google\android\exoplayer\MediaFormatHolder.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\build\intermediates\classes\release\com\google\android\exoplayer\ParserException.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\build\intermediates\classes\release\com\google\android\exoplayer\SampleHolder.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\build\intermediates\classes\release\com\google\android\exoplayer\SampleSource$SampleSourceReader.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\build\intermediates\classes\release\com\google\android\exoplayer\SampleSource.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\build\intermediates\classes\release\com\google\android\exoplayer\SingleSampleSource.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\build\intermediates\classes\release\com\google\android\exoplayer\SmoothFrameReleaseTimeHelper.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\build\intermediates\classes\release\com\google\android\exoplayer\StandaloneMediaClock.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\build\intermediates\classes\release\com\google\android\exoplayer\TimeRange.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\build\intermediates\classes\release\com\google\android\exoplayer\TrackInfo.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\build\intermediates\classes\release\com\google\android\exoplayer\TrackRenderer.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\build\intermediates\classes\release\com\google\android\exoplayer\audio\AudioCapabilities.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\build\intermediates\classes\release\com\google\android\exoplayer\audio\AudioCapabilitiesReceiver$1.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\build\intermediates\classes\release\com\google\android\exoplayer\audio\AudioCapabilitiesReceiver$HdmiAudioPlugBroadcastReceiver.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\build\intermediates\classes\release\com\google\android\exoplayer\audio\AudioCapabilitiesReceiver$Listener.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\build\intermediates\classes\release\com\google\android\exoplayer\audio\AudioCapabilitiesReceiver.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\build\intermediates\classes\release\com\google\android\exoplayer\audio\AudioTrack$1.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\build\intermediates\classes\release\com\google\android\exoplayer\audio\AudioTrack$2.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\build\intermediates\classes\release\com\google\android\exoplayer\audio\AudioTrack$AudioTrackUtil.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\build\intermediates\classes\release\com\google\android\exoplayer\audio\AudioTrack$AudioTrackUtilV19.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\build\intermediates\classes\release\com\google\android\exoplayer\audio\AudioTrack$InitializationException.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\build\intermediates\classes\release\com\google\android\exoplayer\audio\AudioTrack$InvalidAudioTrackTimestampException.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\build\intermediates\classes\release\com\google\android\exoplayer\audio\AudioTrack$WriteException.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\build\intermediates\classes\release\com\google\android\exoplayer\audio\AudioTrack.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\build\intermediates\classes\release\com\google\android\exoplayer\chunk\BaseChunkSampleSourceEventListener.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\build\intermediates\classes\release\com\google\android\exoplayer\chunk\BaseMediaChunk.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\build\intermediates\classes\release\com\google\android\exoplayer\chunk\Chunk.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\build\intermediates\classes\release\com\google\android\exoplayer\chunk\ChunkExtractorWrapper$SingleTrackOutput.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\build\intermediates\classes\release\com\google\android\exoplayer\chunk\ChunkExtractorWrapper.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\build\intermediates\classes\release\com\google\android\exoplayer\chunk\ChunkOperationHolder.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\build\intermediates\classes\release\com\google\android\exoplayer\chunk\ChunkSampleSource$1.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\build\intermediates\classes\release\com\google\android\exoplayer\chunk\ChunkSampleSource$2.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\build\intermediates\classes\release\com\google\android\exoplayer\chunk\ChunkSampleSource$3.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\build\intermediates\classes\release\com\google\android\exoplayer\chunk\ChunkSampleSource$4.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\build\intermediates\classes\release\com\google\android\exoplayer\chunk\ChunkSampleSource$5.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\build\intermediates\classes\release\com\google\android\exoplayer\chunk\ChunkSampleSource$6.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\build\intermediates\classes\release\com\google\android\exoplayer\chunk\ChunkSampleSource$EventListener.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\build\intermediates\classes\release\com\google\android\exoplayer\chunk\ChunkSampleSource.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\build\intermediates\classes\release\com\google\android\exoplayer\chunk\ChunkSource.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\build\intermediates\classes\release\com\google\android\exoplayer\chunk\ContainerMediaChunk.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\build\intermediates\classes\release\com\google\android\exoplayer\chunk\DataChunk.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\build\intermediates\classes\release\com\google\android\exoplayer\chunk\Format$DecreasingBandwidthComparator.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\build\intermediates\classes\release\com\google\android\exoplayer\chunk\Format.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\build\intermediates\classes\release\com\google\android\exoplayer\chunk\FormatEvaluator$AdaptiveEvaluator.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\build\intermediates\classes\release\com\google\android\exoplayer\chunk\FormatEvaluator$Evaluation.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\build\intermediates\classes\release\com\google\android\exoplayer\chunk\FormatEvaluator$FixedEvaluator.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\build\intermediates\classes\release\com\google\android\exoplayer\chunk\FormatEvaluator$RandomEvaluator.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\build\intermediates\classes\release\com\google\android\exoplayer\chunk\FormatEvaluator.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\build\intermediates\classes\release\com\google\android\exoplayer\chunk\FormatWrapper.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\build\intermediates\classes\release\com\google\android\exoplayer\chunk\InitializationChunk.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\build\intermediates\classes\release\com\google\android\exoplayer\chunk\MediaChunk.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\build\intermediates\classes\release\com\google\android\exoplayer\chunk\MultiTrackChunkSource.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\build\intermediates\classes\release\com\google\android\exoplayer\chunk\SingleSampleChunkSource.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\build\intermediates\classes\release\com\google\android\exoplayer\chunk\SingleSampleMediaChunk.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\build\intermediates\classes\release\com\google\android\exoplayer\chunk\VideoFormatSelectorUtil.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\build\intermediates\classes\release\com\google\android\exoplayer\dash\DashChunkSource$1.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\build\intermediates\classes\release\com\google\android\exoplayer\dash\DashChunkSource$EventListener.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\build\intermediates\classes\release\com\google\android\exoplayer\dash\DashChunkSource$NoAdaptationSetException.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\build\intermediates\classes\release\com\google\android\exoplayer\dash\DashChunkSource$RepresentationHolder.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\build\intermediates\classes\release\com\google\android\exoplayer\dash\DashChunkSource.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\build\intermediates\classes\release\com\google\android\exoplayer\dash\DashSegmentIndex.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\build\intermediates\classes\release\com\google\android\exoplayer\dash\DashWrappingSegmentIndex.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\build\intermediates\classes\release\com\google\android\exoplayer\dash\mpd\AdaptationSet.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\build\intermediates\classes\release\com\google\android\exoplayer\dash\mpd\ContentProtection.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\build\intermediates\classes\release\com\google\android\exoplayer\dash\mpd\DashSingleSegmentIndex.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\build\intermediates\classes\release\com\google\android\exoplayer\dash\mpd\MediaPresentationDescription.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\build\intermediates\classes\release\com\google\android\exoplayer\dash\mpd\MediaPresentationDescriptionParser$ContentProtectionsBuilder.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\build\intermediates\classes\release\com\google\android\exoplayer\dash\mpd\MediaPresentationDescriptionParser.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\build\intermediates\classes\release\com\google\android\exoplayer\dash\mpd\Period.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\build\intermediates\classes\release\com\google\android\exoplayer\dash\mpd\RangedUri.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\build\intermediates\classes\release\com\google\android\exoplayer\dash\mpd\Representation$1.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\build\intermediates\classes\release\com\google\android\exoplayer\dash\mpd\Representation$MultiSegmentRepresentation.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\build\intermediates\classes\release\com\google\android\exoplayer\dash\mpd\Representation$SingleSegmentRepresentation.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\build\intermediates\classes\release\com\google\android\exoplayer\dash\mpd\Representation.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\build\intermediates\classes\release\com\google\android\exoplayer\dash\mpd\SegmentBase$MultiSegmentBase.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\build\intermediates\classes\release\com\google\android\exoplayer\dash\mpd\SegmentBase$SegmentList.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\build\intermediates\classes\release\com\google\android\exoplayer\dash\mpd\SegmentBase$SegmentTemplate.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\build\intermediates\classes\release\com\google\android\exoplayer\dash\mpd\SegmentBase$SegmentTimelineElement.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\build\intermediates\classes\release\com\google\android\exoplayer\dash\mpd\SegmentBase$SingleSegmentBase.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\build\intermediates\classes\release\com\google\android\exoplayer\dash\mpd\SegmentBase.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\build\intermediates\classes\release\com\google\android\exoplayer\dash\mpd\UrlTemplate.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\build\intermediates\classes\release\com\google\android\exoplayer\dash\mpd\UtcTimingElement.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\build\intermediates\classes\release\com\google\android\exoplayer\dash\mpd\UtcTimingElementResolver$1.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\build\intermediates\classes\release\com\google\android\exoplayer\dash\mpd\UtcTimingElementResolver$Iso8601Parser.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\build\intermediates\classes\release\com\google\android\exoplayer\dash\mpd\UtcTimingElementResolver$UtcTimingCallback.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\build\intermediates\classes\release\com\google\android\exoplayer\dash\mpd\UtcTimingElementResolver$XsDateTimeParser.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\build\intermediates\classes\release\com\google\android\exoplayer\dash\mpd\UtcTimingElementResolver.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\build\intermediates\classes\release\com\google\android\exoplayer\drm\DrmInitData$Mapped.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\build\intermediates\classes\release\com\google\android\exoplayer\drm\DrmInitData$Universal.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\build\intermediates\classes\release\com\google\android\exoplayer\drm\DrmInitData.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\build\intermediates\classes\release\com\google\android\exoplayer\drm\DrmSessionManager.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\build\intermediates\classes\release\com\google\android\exoplayer\drm\KeysExpiredException.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\build\intermediates\classes\release\com\google\android\exoplayer\drm\MediaDrmCallback.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\build\intermediates\classes\release\com\google\android\exoplayer\drm\StreamingDrmSessionManager$1.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\build\intermediates\classes\release\com\google\android\exoplayer\drm\StreamingDrmSessionManager$EventListener.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\build\intermediates\classes\release\com\google\android\exoplayer\drm\StreamingDrmSessionManager$MediaDrmEventListener.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\build\intermediates\classes\release\com\google\android\exoplayer\drm\StreamingDrmSessionManager$MediaDrmHandler.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\build\intermediates\classes\release\com\google\android\exoplayer\drm\StreamingDrmSessionManager$PostRequestHandler.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\build\intermediates\classes\release\com\google\android\exoplayer\drm\StreamingDrmSessionManager$PostResponseHandler.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\build\intermediates\classes\release\com\google\android\exoplayer\drm\StreamingDrmSessionManager.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\build\intermediates\classes\release\com\google\android\exoplayer\drm\UnsupportedDrmException.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\build\intermediates\classes\release\com\google\android\exoplayer\extractor\ChunkIndex.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\build\intermediates\classes\release\com\google\android\exoplayer\extractor\DefaultExtractorInput.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\build\intermediates\classes\release\com\google\android\exoplayer\extractor\DefaultTrackOutput.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\build\intermediates\classes\release\com\google\android\exoplayer\extractor\Extractor.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\build\intermediates\classes\release\com\google\android\exoplayer\extractor\ExtractorInput.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\build\intermediates\classes\release\com\google\android\exoplayer\extractor\ExtractorOutput.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\build\intermediates\classes\release\com\google\android\exoplayer\extractor\ExtractorSampleSource$ExtractingLoadable.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\build\intermediates\classes\release\com\google\android\exoplayer\extractor\ExtractorSampleSource$ExtractorHolder.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\build\intermediates\classes\release\com\google\android\exoplayer\extractor\ExtractorSampleSource$InternalTrackOutput.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\build\intermediates\classes\release\com\google\android\exoplayer\extractor\ExtractorSampleSource$UnrecognizedInputFormatException.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\build\intermediates\classes\release\com\google\android\exoplayer\extractor\ExtractorSampleSource.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\build\intermediates\classes\release\com\google\android\exoplayer\extractor\PositionHolder.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\build\intermediates\classes\release\com\google\android\exoplayer\extractor\RollingSampleBuffer$1.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\build\intermediates\classes\release\com\google\android\exoplayer\extractor\RollingSampleBuffer$InfoQueue.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\build\intermediates\classes\release\com\google\android\exoplayer\extractor\RollingSampleBuffer$SampleExtrasHolder.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\build\intermediates\classes\release\com\google\android\exoplayer\extractor\RollingSampleBuffer.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\build\intermediates\classes\release\com\google\android\exoplayer\extractor\SeekMap$1.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\build\intermediates\classes\release\com\google\android\exoplayer\extractor\SeekMap.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\build\intermediates\classes\release\com\google\android\exoplayer\extractor\TrackOutput.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\build\intermediates\classes\release\com\google\android\exoplayer\extractor\mp3\BufferingInput.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\build\intermediates\classes\release\com\google\android\exoplayer\extractor\mp3\ConstantBitrateSeeker.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\build\intermediates\classes\release\com\google\android\exoplayer\extractor\mp3\Mp3Extractor$Seeker.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\build\intermediates\classes\release\com\google\android\exoplayer\extractor\mp3\Mp3Extractor.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\build\intermediates\classes\release\com\google\android\exoplayer\extractor\mp3\VbriSeeker.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\build\intermediates\classes\release\com\google\android\exoplayer\extractor\mp3\XingSeeker.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\build\intermediates\classes\release\com\google\android\exoplayer\extractor\mp4\Atom$ContainerAtom.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\build\intermediates\classes\release\com\google\android\exoplayer\extractor\mp4\Atom$LeafAtom.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\build\intermediates\classes\release\com\google\android\exoplayer\extractor\mp4\Atom.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\build\intermediates\classes\release\com\google\android\exoplayer\extractor\mp4\AtomParsers$StsdDataHolder.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\build\intermediates\classes\release\com\google\android\exoplayer\extractor\mp4\AtomParsers.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\build\intermediates\classes\release\com\google\android\exoplayer\extractor\mp4\DefaultSampleValues.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\build\intermediates\classes\release\com\google\android\exoplayer\extractor\mp4\FragmentedMp4Extractor.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\build\intermediates\classes\release\com\google\android\exoplayer\extractor\mp4\Mp4Extractor$Mp4Track.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\build\intermediates\classes\release\com\google\android\exoplayer\extractor\mp4\Mp4Extractor.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\build\intermediates\classes\release\com\google\android\exoplayer\extractor\mp4\PsshAtomUtil.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\build\intermediates\classes\release\com\google\android\exoplayer\extractor\mp4\Sniffer.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\build\intermediates\classes\release\com\google\android\exoplayer\extractor\mp4\Track.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\build\intermediates\classes\release\com\google\android\exoplayer\extractor\mp4\TrackEncryptionBox.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\build\intermediates\classes\release\com\google\android\exoplayer\extractor\mp4\TrackFragment.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\build\intermediates\classes\release\com\google\android\exoplayer\extractor\mp4\TrackSampleTable.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\build\intermediates\classes\release\com\google\android\exoplayer\extractor\ts\Ac3Reader.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\build\intermediates\classes\release\com\google\android\exoplayer\extractor\ts\AdtsExtractor.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\build\intermediates\classes\release\com\google\android\exoplayer\extractor\ts\AdtsReader.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\build\intermediates\classes\release\com\google\android\exoplayer\extractor\ts\ElementaryStreamReader.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\build\intermediates\classes\release\com\google\android\exoplayer\extractor\ts\H264Reader$IfrParserBuffer.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\build\intermediates\classes\release\com\google\android\exoplayer\extractor\ts\H264Reader.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\build\intermediates\classes\release\com\google\android\exoplayer\extractor\ts\H265Reader.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\build\intermediates\classes\release\com\google\android\exoplayer\extractor\ts\Id3Reader.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\build\intermediates\classes\release\com\google\android\exoplayer\extractor\ts\MpegAudioReader.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\build\intermediates\classes\release\com\google\android\exoplayer\extractor\ts\NalUnitTargetBuffer.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\build\intermediates\classes\release\com\google\android\exoplayer\extractor\ts\SeiReader.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\build\intermediates\classes\release\com\google\android\exoplayer\extractor\ts\TsExtractor$1.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\build\intermediates\classes\release\com\google\android\exoplayer\extractor\ts\TsExtractor$PatReader.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\build\intermediates\classes\release\com\google\android\exoplayer\extractor\ts\TsExtractor$PesReader.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\build\intermediates\classes\release\com\google\android\exoplayer\extractor\ts\TsExtractor$PmtReader.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\build\intermediates\classes\release\com\google\android\exoplayer\extractor\ts\TsExtractor$TsPayloadReader.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\build\intermediates\classes\release\com\google\android\exoplayer\extractor\ts\TsExtractor.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\build\intermediates\classes\release\com\google\android\exoplayer\extractor\webm\DefaultEbmlReader$1.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\build\intermediates\classes\release\com\google\android\exoplayer\extractor\webm\DefaultEbmlReader$MasterElement.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\build\intermediates\classes\release\com\google\android\exoplayer\extractor\webm\DefaultEbmlReader.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\build\intermediates\classes\release\com\google\android\exoplayer\extractor\webm\EbmlReader.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\build\intermediates\classes\release\com\google\android\exoplayer\extractor\webm\EbmlReaderOutput.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\build\intermediates\classes\release\com\google\android\exoplayer\extractor\webm\Sniffer.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\build\intermediates\classes\release\com\google\android\exoplayer\extractor\webm\VarintReader.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\build\intermediates\classes\release\com\google\android\exoplayer\extractor\webm\WebmExtractor$1.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\build\intermediates\classes\release\com\google\android\exoplayer\extractor\webm\WebmExtractor$InnerEbmlReaderOutput.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\build\intermediates\classes\release\com\google\android\exoplayer\extractor\webm\WebmExtractor$TrackFormat.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\build\intermediates\classes\release\com\google\android\exoplayer\extractor\webm\WebmExtractor.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\build\intermediates\classes\release\com\google\android\exoplayer\hls\Aes128DataSource.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\build\intermediates\classes\release\com\google\android\exoplayer\hls\HlsChunkSource$1.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\build\intermediates\classes\release\com\google\android\exoplayer\hls\HlsChunkSource$EncryptionKeyChunk.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\build\intermediates\classes\release\com\google\android\exoplayer\hls\HlsChunkSource$EventListener.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\build\intermediates\classes\release\com\google\android\exoplayer\hls\HlsChunkSource$MediaPlaylistChunk.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\build\intermediates\classes\release\com\google\android\exoplayer\hls\HlsChunkSource.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\build\intermediates\classes\release\com\google\android\exoplayer\hls\HlsExtractorWrapper.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\build\intermediates\classes\release\com\google\android\exoplayer\hls\HlsMasterPlaylist.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\build\intermediates\classes\release\com\google\android\exoplayer\hls\HlsMediaPlaylist$Segment.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\build\intermediates\classes\release\com\google\android\exoplayer\hls\HlsMediaPlaylist.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\build\intermediates\classes\release\com\google\android\exoplayer\hls\HlsParserUtil.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\build\intermediates\classes\release\com\google\android\exoplayer\hls\HlsPlaylist.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\build\intermediates\classes\release\com\google\android\exoplayer\hls\HlsPlaylistParser$LineIterator.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\build\intermediates\classes\release\com\google\android\exoplayer\hls\HlsPlaylistParser.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\build\intermediates\classes\release\com\google\android\exoplayer\hls\HlsSampleSource$1.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\build\intermediates\classes\release\com\google\android\exoplayer\hls\HlsSampleSource$2.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\build\intermediates\classes\release\com\google\android\exoplayer\hls\HlsSampleSource$3.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\build\intermediates\classes\release\com\google\android\exoplayer\hls\HlsSampleSource$4.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\build\intermediates\classes\release\com\google\android\exoplayer\hls\HlsSampleSource$5.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\build\intermediates\classes\release\com\google\android\exoplayer\hls\HlsSampleSource$EventListener.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\build\intermediates\classes\release\com\google\android\exoplayer\hls\HlsSampleSource.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\build\intermediates\classes\release\com\google\android\exoplayer\hls\Subtitle.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\build\intermediates\classes\release\com\google\android\exoplayer\hls\TsChunk.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\build\intermediates\classes\release\com\google\android\exoplayer\hls\Variant.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\build\intermediates\classes\release\com\google\android\exoplayer\metadata\GeobMetadata.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\build\intermediates\classes\release\com\google\android\exoplayer\metadata\Id3Parser.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\build\intermediates\classes\release\com\google\android\exoplayer\metadata\MetadataParser.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\build\intermediates\classes\release\com\google\android\exoplayer\metadata\MetadataTrackRenderer$MetadataRenderer.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\build\intermediates\classes\release\com\google\android\exoplayer\metadata\MetadataTrackRenderer.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\build\intermediates\classes\release\com\google\android\exoplayer\metadata\PrivMetadata.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\build\intermediates\classes\release\com\google\android\exoplayer\metadata\TxxxMetadata.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\build\intermediates\classes\release\com\google\android\exoplayer\smoothstreaming\SmoothStreamingChunkSource.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\build\intermediates\classes\release\com\google\android\exoplayer\smoothstreaming\SmoothStreamingManifest$ProtectionElement.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\build\intermediates\classes\release\com\google\android\exoplayer\smoothstreaming\SmoothStreamingManifest$StreamElement.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\build\intermediates\classes\release\com\google\android\exoplayer\smoothstreaming\SmoothStreamingManifest$TrackElement.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\build\intermediates\classes\release\com\google\android\exoplayer\smoothstreaming\SmoothStreamingManifest.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\build\intermediates\classes\release\com\google\android\exoplayer\smoothstreaming\SmoothStreamingManifestParser$ElementParser.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\build\intermediates\classes\release\com\google\android\exoplayer\smoothstreaming\SmoothStreamingManifestParser$MissingFieldException.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\build\intermediates\classes\release\com\google\android\exoplayer\smoothstreaming\SmoothStreamingManifestParser$ProtectionElementParser.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\build\intermediates\classes\release\com\google\android\exoplayer\smoothstreaming\SmoothStreamingManifestParser$SmoothStreamMediaParser.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\build\intermediates\classes\release\com\google\android\exoplayer\smoothstreaming\SmoothStreamingManifestParser$StreamElementParser.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\build\intermediates\classes\release\com\google\android\exoplayer\smoothstreaming\SmoothStreamingManifestParser$TrackElementParser.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\build\intermediates\classes\release\com\google\android\exoplayer\smoothstreaming\SmoothStreamingManifestParser.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\build\intermediates\classes\release\com\google\android\exoplayer\text\CaptionStyleCompat.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\build\intermediates\classes\release\com\google\android\exoplayer\text\Cue.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\build\intermediates\classes\release\com\google\android\exoplayer\text\CuePainter.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\build\intermediates\classes\release\com\google\android\exoplayer\text\Subtitle.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\build\intermediates\classes\release\com\google\android\exoplayer\text\SubtitleLayout.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\build\intermediates\classes\release\com\google\android\exoplayer\text\SubtitleParser.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\build\intermediates\classes\release\com\google\android\exoplayer\text\SubtitleParserHelper.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\build\intermediates\classes\release\com\google\android\exoplayer\text\TextRenderer.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\build\intermediates\classes\release\com\google\android\exoplayer\text\TextTrackRenderer.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\build\intermediates\classes\release\com\google\android\exoplayer\text\eia608\ClosedCaption.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\build\intermediates\classes\release\com\google\android\exoplayer\text\eia608\ClosedCaptionCtrl.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\build\intermediates\classes\release\com\google\android\exoplayer\text\eia608\ClosedCaptionList.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\build\intermediates\classes\release\com\google\android\exoplayer\text\eia608\ClosedCaptionText.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\build\intermediates\classes\release\com\google\android\exoplayer\text\eia608\Eia608Parser.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\build\intermediates\classes\release\com\google\android\exoplayer\text\eia608\Eia608TrackRenderer.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\build\intermediates\classes\release\com\google\android\exoplayer\text\subrip\SubripParser.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\build\intermediates\classes\release\com\google\android\exoplayer\text\subrip\SubripSubtitle.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\build\intermediates\classes\release\com\google\android\exoplayer\text\ttml\TtmlNode.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\build\intermediates\classes\release\com\google\android\exoplayer\text\ttml\TtmlParser.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\build\intermediates\classes\release\com\google\android\exoplayer\text\ttml\TtmlSubtitle.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\build\intermediates\classes\release\com\google\android\exoplayer\text\tx3g\Tx3gParser.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\build\intermediates\classes\release\com\google\android\exoplayer\text\tx3g\Tx3gSubtitle.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\build\intermediates\classes\release\com\google\android\exoplayer\text\webvtt\WebvttCue.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\build\intermediates\classes\release\com\google\android\exoplayer\text\webvtt\WebvttParser.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\build\intermediates\classes\release\com\google\android\exoplayer\text\webvtt\WebvttSubtitle.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\build\intermediates\classes\release\com\google\android\exoplayer\upstream\Allocation.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\build\intermediates\classes\release\com\google\android\exoplayer\upstream\Allocator.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\build\intermediates\classes\release\com\google\android\exoplayer\upstream\AssetDataSource$AssetDataSourceException.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\build\intermediates\classes\release\com\google\android\exoplayer\upstream\AssetDataSource.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\build\intermediates\classes\release\com\google\android\exoplayer\upstream\BandwidthMeter$EventListener.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\build\intermediates\classes\release\com\google\android\exoplayer\upstream\BandwidthMeter.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\build\intermediates\classes\release\com\google\android\exoplayer\upstream\ByteArrayDataSink.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\build\intermediates\classes\release\com\google\android\exoplayer\upstream\ByteArrayDataSource.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\build\intermediates\classes\release\com\google\android\exoplayer\upstream\ContentDataSource$ContentDataSourceException.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\build\intermediates\classes\release\com\google\android\exoplayer\upstream\ContentDataSource.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\build\intermediates\classes\release\com\google\android\exoplayer\upstream\DataSink.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\build\intermediates\classes\release\com\google\android\exoplayer\upstream\DataSource.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\build\intermediates\classes\release\com\google\android\exoplayer\upstream\DataSourceInputStream.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\build\intermediates\classes\release\com\google\android\exoplayer\upstream\DataSpec.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\build\intermediates\classes\release\com\google\android\exoplayer\upstream\DefaultAllocator.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\build\intermediates\classes\release\com\google\android\exoplayer\upstream\DefaultBandwidthMeter$1.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\build\intermediates\classes\release\com\google\android\exoplayer\upstream\DefaultBandwidthMeter.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\build\intermediates\classes\release\com\google\android\exoplayer\upstream\DefaultHttpDataSource.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\build\intermediates\classes\release\com\google\android\exoplayer\upstream\DefaultUriDataSource.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\build\intermediates\classes\release\com\google\android\exoplayer\upstream\FileDataSource$FileDataSourceException.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\build\intermediates\classes\release\com\google\android\exoplayer\upstream\FileDataSource.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\build\intermediates\classes\release\com\google\android\exoplayer\upstream\HttpDataSource$1.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\build\intermediates\classes\release\com\google\android\exoplayer\upstream\HttpDataSource$HttpDataSourceException.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\build\intermediates\classes\release\com\google\android\exoplayer\upstream\HttpDataSource$InvalidContentTypeException.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\build\intermediates\classes\release\com\google\android\exoplayer\upstream\HttpDataSource$InvalidResponseCodeException.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\build\intermediates\classes\release\com\google\android\exoplayer\upstream\HttpDataSource.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\build\intermediates\classes\release\com\google\android\exoplayer\upstream\Loader$Callback.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\build\intermediates\classes\release\com\google\android\exoplayer\upstream\Loader$LoadTask.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\build\intermediates\classes\release\com\google\android\exoplayer\upstream\Loader$Loadable.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\build\intermediates\classes\release\com\google\android\exoplayer\upstream\Loader$UnexpectedLoaderException.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\build\intermediates\classes\release\com\google\android\exoplayer\upstream\Loader.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\build\intermediates\classes\release\com\google\android\exoplayer\upstream\NetworkLock$PriorityTooLowException.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\build\intermediates\classes\release\com\google\android\exoplayer\upstream\NetworkLock.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\build\intermediates\classes\release\com\google\android\exoplayer\upstream\PriorityDataSource.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\build\intermediates\classes\release\com\google\android\exoplayer\upstream\TeeDataSource.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\build\intermediates\classes\release\com\google\android\exoplayer\upstream\TransferListener.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\build\intermediates\classes\release\com\google\android\exoplayer\upstream\UdpDataSource$UdpDataSourceException.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\build\intermediates\classes\release\com\google\android\exoplayer\upstream\UdpDataSource.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\build\intermediates\classes\release\com\google\android\exoplayer\upstream\UnexpectedLengthException.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\build\intermediates\classes\release\com\google\android\exoplayer\upstream\UriDataSource.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\build\intermediates\classes\release\com\google\android\exoplayer\upstream\UriLoadable$Parser.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\build\intermediates\classes\release\com\google\android\exoplayer\upstream\UriLoadable.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\build\intermediates\classes\release\com\google\android\exoplayer\upstream\cache\Cache$Listener.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\build\intermediates\classes\release\com\google\android\exoplayer\upstream\cache\Cache.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\build\intermediates\classes\release\com\google\android\exoplayer\upstream\cache\CacheDataSink$CacheDataSinkException.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\build\intermediates\classes\release\com\google\android\exoplayer\upstream\cache\CacheDataSink.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\build\intermediates\classes\release\com\google\android\exoplayer\upstream\cache\CacheDataSource$EventListener.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\build\intermediates\classes\release\com\google\android\exoplayer\upstream\cache\CacheDataSource.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\build\intermediates\classes\release\com\google\android\exoplayer\upstream\cache\CacheEvictor.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\build\intermediates\classes\release\com\google\android\exoplayer\upstream\cache\CacheSpan.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\build\intermediates\classes\release\com\google\android\exoplayer\upstream\cache\LeastRecentlyUsedCacheEvictor.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\build\intermediates\classes\release\com\google\android\exoplayer\upstream\cache\NoOpCacheEvictor.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\build\intermediates\classes\release\com\google\android\exoplayer\upstream\cache\SimpleCache$1.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\build\intermediates\classes\release\com\google\android\exoplayer\upstream\cache\SimpleCache.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\build\intermediates\classes\release\com\google\android\exoplayer\util\Ac3Util.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\build\intermediates\classes\release\com\google\android\exoplayer\util\Assertions.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\build\intermediates\classes\release\com\google\android\exoplayer\util\Clock.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\build\intermediates\classes\release\com\google\android\exoplayer\util\CodecSpecificDataUtil.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\build\intermediates\classes\release\com\google\android\exoplayer\util\DebugTextViewHelper$Provider.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\build\intermediates\classes\release\com\google\android\exoplayer\util\DebugTextViewHelper.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\build\intermediates\classes\release\com\google\android\exoplayer\util\LongArray.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\build\intermediates\classes\release\com\google\android\exoplayer\util\ManifestFetcher$1.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\build\intermediates\classes\release\com\google\android\exoplayer\util\ManifestFetcher$2.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\build\intermediates\classes\release\com\google\android\exoplayer\util\ManifestFetcher$3.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\build\intermediates\classes\release\com\google\android\exoplayer\util\ManifestFetcher$EventListener.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\build\intermediates\classes\release\com\google\android\exoplayer\util\ManifestFetcher$ManifestCallback.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\build\intermediates\classes\release\com\google\android\exoplayer\util\ManifestFetcher$RedirectingManifest.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\build\intermediates\classes\release\com\google\android\exoplayer\util\ManifestFetcher$SingleFetchHelper.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\build\intermediates\classes\release\com\google\android\exoplayer\util\ManifestFetcher.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\build\intermediates\classes\release\com\google\android\exoplayer\util\MimeTypes.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\build\intermediates\classes\release\com\google\android\exoplayer\util\MpegAudioHeader.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\build\intermediates\classes\release\com\google\android\exoplayer\util\NalUnitUtil.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\build\intermediates\classes\release\com\google\android\exoplayer\util\ParsableBitArray.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\build\intermediates\classes\release\com\google\android\exoplayer\util\ParsableByteArray.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\build\intermediates\classes\release\com\google\android\exoplayer\util\PlayerControl.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\build\intermediates\classes\release\com\google\android\exoplayer\util\Predicate.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\build\intermediates\classes\release\com\google\android\exoplayer\util\PriorityHandlerThread.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\build\intermediates\classes\release\com\google\android\exoplayer\util\SlidingPercentile$1.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\build\intermediates\classes\release\com\google\android\exoplayer\util\SlidingPercentile$2.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\build\intermediates\classes\release\com\google\android\exoplayer\util\SlidingPercentile$Sample.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\build\intermediates\classes\release\com\google\android\exoplayer\util\SlidingPercentile.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\build\intermediates\classes\release\com\google\android\exoplayer\util\SystemClock.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\build\intermediates\classes\release\com\google\android\exoplayer\util\TraceUtil.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\build\intermediates\classes\release\com\google\android\exoplayer\util\UriUtil.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\build\intermediates\classes\release\com\google\android\exoplayer\util\Util$1.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\build\intermediates\classes\release\com\google\android\exoplayer\util\Util$2.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\build\intermediates\classes\release\com\google\android\exoplayer\util\Util.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\build\intermediates\classes\release\com\google\android\exoplayer\util\VerboseLogUtil.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\build\intermediates\incremental\aidl\release\dependency.store" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\build\intermediates\incremental\mergeAssets\release\merger.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\build\intermediates\incremental\packageResources\release\merger.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\build\outputs\aar\library-release.aar" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\build\tmp\packageReleaseJar\MANIFEST.MF" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\library.iml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\src\androidTest\.classpath" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\src\androidTest\.project" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\src\androidTest\.settings\org.eclipse.jdt.core.prefs" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\src\androidTest\AndroidManifest.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\src\androidTest\assets\dash\sample_mpd_1" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\src\androidTest\assets\subrip\empty" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\src\androidTest\assets\subrip\typical" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\src\androidTest\assets\webm\vorbis_codec_private" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\src\androidTest\assets\webvtt\empty" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\src\androidTest\assets\webvtt\live_typical" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\src\androidTest\assets\webvtt\typical" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\src\androidTest\assets\webvtt\typical_with_identifiers" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\src\androidTest\assets\webvtt\typical_with_tags" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\src\androidTest\java\com\google\android\exoplayer\CTest.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\src\androidTest\java\com\google\android\exoplayer\MediaFormatTest.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\src\androidTest\java\com\google\android\exoplayer\TimeRangeTest.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\src\androidTest\java\com\google\android\exoplayer\dash\DashChunkSourceTest.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\src\androidTest\java\com\google\android\exoplayer\dash\mpd\MediaPresentationDescriptionParserTest.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\src\androidTest\java\com\google\android\exoplayer\dash\mpd\RangedUriTest.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\src\androidTest\java\com\google\android\exoplayer\dash\mpd\RepresentationTest.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\src\androidTest\java\com\google\android\exoplayer\dash\mpd\UrlTemplateTest.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\src\androidTest\java\com\google\android\exoplayer\extractor\DefaultExtractorInputTest.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\src\androidTest\java\com\google\android\exoplayer\extractor\ExtractorTest.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\src\androidTest\java\com\google\android\exoplayer\extractor\mp3\BufferingInputTest.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\src\androidTest\java\com\google\android\exoplayer\extractor\mp4\Mp4ExtractorTest.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\src\androidTest\java\com\google\android\exoplayer\extractor\webm\DefaultEbmlReaderTest.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\src\androidTest\java\com\google\android\exoplayer\extractor\webm\StreamBuilder.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\src\androidTest\java\com\google\android\exoplayer\extractor\webm\VarintReaderTest.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\src\androidTest\java\com\google\android\exoplayer\extractor\webm\WebmExtractorTest.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\src\androidTest\java\com\google\android\exoplayer\hls\HlsMasterPlaylistParserTest.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\src\androidTest\java\com\google\android\exoplayer\hls\HlsMediaPlaylistParserTest.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\src\androidTest\java\com\google\android\exoplayer\metadata\Id3ParserTest.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\src\androidTest\java\com\google\android\exoplayer\testutil\FakeDataSource.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\src\androidTest\java\com\google\android\exoplayer\testutil\FakeExtractorOutput.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\src\androidTest\java\com\google\android\exoplayer\testutil\FakeTrackOutput.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\src\androidTest\java\com\google\android\exoplayer\testutil\TestUtil.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\src\androidTest\java\com\google\android\exoplayer\text\subrip\SubripParserTest.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\src\androidTest\java\com\google\android\exoplayer\text\webvtt\WebvttParserTest.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\src\androidTest\java\com\google\android\exoplayer\text\webvtt\WebvttSubtitleTest.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\src\androidTest\java\com\google\android\exoplayer\upstream\ByteArrayDataSourceTest.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\src\androidTest\java\com\google\android\exoplayer\util\FakeClock.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\src\androidTest\java\com\google\android\exoplayer\util\NalUnitUtilTest.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\src\androidTest\java\com\google\android\exoplayer\util\ParsableByteArrayTest.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\src\androidTest\java\com\google\android\exoplayer\util\UriUtilTest.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\src\androidTest\java\com\google\android\exoplayer\util\UtilTest.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\src\androidTest\libs\.README.txt" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\src\androidTest\project.properties" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\src\androidTest\res\.README.txt" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\src\main\.classpath" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\src\main\.project" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\src\main\.settings\org.eclipse.jdt.core.prefs" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\src\main\AndroidManifest.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\src\main\java\com\google\android\exoplayer\AspectRatioFrameLayout.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\src\main\java\com\google\android\exoplayer\BehindLiveWindowException.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\src\main\java\com\google\android\exoplayer\C.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\src\main\java\com\google\android\exoplayer\CodecCounters.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\src\main\java\com\google\android\exoplayer\CryptoInfo.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\src\main\java\com\google\android\exoplayer\DecoderInfo.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\src\main\java\com\google\android\exoplayer\DefaultLoadControl.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\src\main\java\com\google\android\exoplayer\DummyTrackRenderer.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\src\main\java\com\google\android\exoplayer\ExoPlaybackException.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\src\main\java\com\google\android\exoplayer\ExoPlayer.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\src\main\java\com\google\android\exoplayer\ExoPlayerImpl.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\src\main\java\com\google\android\exoplayer\ExoPlayerImplInternal.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\src\main\java\com\google\android\exoplayer\ExoPlayerLibraryInfo.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\src\main\java\com\google\android\exoplayer\FrameworkSampleSource.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\src\main\java\com\google\android\exoplayer\LoadControl.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\src\main\java\com\google\android\exoplayer\MediaClock.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\src\main\java\com\google\android\exoplayer\MediaCodecAudioTrackRenderer.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\src\main\java\com\google\android\exoplayer\MediaCodecTrackRenderer.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\src\main\java\com\google\android\exoplayer\MediaCodecUtil.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\src\main\java\com\google\android\exoplayer\MediaCodecVideoTrackRenderer.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\src\main\java\com\google\android\exoplayer\MediaFormat.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\src\main\java\com\google\android\exoplayer\MediaFormatHolder.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\src\main\java\com\google\android\exoplayer\ParserException.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\src\main\java\com\google\android\exoplayer\SampleHolder.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\src\main\java\com\google\android\exoplayer\SampleSource.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\src\main\java\com\google\android\exoplayer\SingleSampleSource.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\src\main\java\com\google\android\exoplayer\SmoothFrameReleaseTimeHelper.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\src\main\java\com\google\android\exoplayer\StandaloneMediaClock.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\src\main\java\com\google\android\exoplayer\TimeRange.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\src\main\java\com\google\android\exoplayer\TrackInfo.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\src\main\java\com\google\android\exoplayer\TrackRenderer.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\src\main\java\com\google\android\exoplayer\audio\AudioCapabilities.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\src\main\java\com\google\android\exoplayer\audio\AudioCapabilitiesReceiver.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\src\main\java\com\google\android\exoplayer\audio\AudioTrack.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\src\main\java\com\google\android\exoplayer\chunk\BaseChunkSampleSourceEventListener.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\src\main\java\com\google\android\exoplayer\chunk\BaseMediaChunk.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\src\main\java\com\google\android\exoplayer\chunk\Chunk.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\src\main\java\com\google\android\exoplayer\chunk\ChunkExtractorWrapper.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\src\main\java\com\google\android\exoplayer\chunk\ChunkOperationHolder.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\src\main\java\com\google\android\exoplayer\chunk\ChunkSampleSource.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\src\main\java\com\google\android\exoplayer\chunk\ChunkSource.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\src\main\java\com\google\android\exoplayer\chunk\ContainerMediaChunk.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\src\main\java\com\google\android\exoplayer\chunk\DataChunk.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\src\main\java\com\google\android\exoplayer\chunk\Format.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\src\main\java\com\google\android\exoplayer\chunk\FormatEvaluator.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\src\main\java\com\google\android\exoplayer\chunk\FormatWrapper.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\src\main\java\com\google\android\exoplayer\chunk\InitializationChunk.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\src\main\java\com\google\android\exoplayer\chunk\MediaChunk.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\src\main\java\com\google\android\exoplayer\chunk\MultiTrackChunkSource.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\src\main\java\com\google\android\exoplayer\chunk\SingleSampleChunkSource.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\src\main\java\com\google\android\exoplayer\chunk\SingleSampleMediaChunk.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\src\main\java\com\google\android\exoplayer\chunk\VideoFormatSelectorUtil.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\src\main\java\com\google\android\exoplayer\dash\DashChunkSource.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\src\main\java\com\google\android\exoplayer\dash\DashSegmentIndex.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\src\main\java\com\google\android\exoplayer\dash\DashWrappingSegmentIndex.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\src\main\java\com\google\android\exoplayer\dash\mpd\AdaptationSet.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\src\main\java\com\google\android\exoplayer\dash\mpd\ContentProtection.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\src\main\java\com\google\android\exoplayer\dash\mpd\DashSingleSegmentIndex.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\src\main\java\com\google\android\exoplayer\dash\mpd\MediaPresentationDescription.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\src\main\java\com\google\android\exoplayer\dash\mpd\MediaPresentationDescriptionParser.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\src\main\java\com\google\android\exoplayer\dash\mpd\Period.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\src\main\java\com\google\android\exoplayer\dash\mpd\RangedUri.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\src\main\java\com\google\android\exoplayer\dash\mpd\Representation.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\src\main\java\com\google\android\exoplayer\dash\mpd\SegmentBase.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\src\main\java\com\google\android\exoplayer\dash\mpd\UrlTemplate.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\src\main\java\com\google\android\exoplayer\dash\mpd\UtcTimingElement.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\src\main\java\com\google\android\exoplayer\dash\mpd\UtcTimingElementResolver.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\src\main\java\com\google\android\exoplayer\drm\DrmInitData.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\src\main\java\com\google\android\exoplayer\drm\DrmSessionManager.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\src\main\java\com\google\android\exoplayer\drm\KeysExpiredException.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\src\main\java\com\google\android\exoplayer\drm\MediaDrmCallback.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\src\main\java\com\google\android\exoplayer\drm\StreamingDrmSessionManager.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\src\main\java\com\google\android\exoplayer\drm\UnsupportedDrmException.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\src\main\java\com\google\android\exoplayer\extractor\ChunkIndex.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\src\main\java\com\google\android\exoplayer\extractor\DefaultExtractorInput.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\src\main\java\com\google\android\exoplayer\extractor\DefaultTrackOutput.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\src\main\java\com\google\android\exoplayer\extractor\Extractor.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\src\main\java\com\google\android\exoplayer\extractor\ExtractorInput.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\src\main\java\com\google\android\exoplayer\extractor\ExtractorOutput.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\src\main\java\com\google\android\exoplayer\extractor\ExtractorSampleSource.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\src\main\java\com\google\android\exoplayer\extractor\PositionHolder.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\src\main\java\com\google\android\exoplayer\extractor\RollingSampleBuffer.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\src\main\java\com\google\android\exoplayer\extractor\SeekMap.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\src\main\java\com\google\android\exoplayer\extractor\TrackOutput.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\src\main\java\com\google\android\exoplayer\extractor\mp3\BufferingInput.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\src\main\java\com\google\android\exoplayer\extractor\mp3\ConstantBitrateSeeker.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\src\main\java\com\google\android\exoplayer\extractor\mp3\Mp3Extractor.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\src\main\java\com\google\android\exoplayer\extractor\mp3\VbriSeeker.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\src\main\java\com\google\android\exoplayer\extractor\mp3\XingSeeker.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\src\main\java\com\google\android\exoplayer\extractor\mp4\Atom.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\src\main\java\com\google\android\exoplayer\extractor\mp4\AtomParsers.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\src\main\java\com\google\android\exoplayer\extractor\mp4\DefaultSampleValues.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\src\main\java\com\google\android\exoplayer\extractor\mp4\FragmentedMp4Extractor.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\src\main\java\com\google\android\exoplayer\extractor\mp4\Mp4Extractor.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\src\main\java\com\google\android\exoplayer\extractor\mp4\PsshAtomUtil.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\src\main\java\com\google\android\exoplayer\extractor\mp4\Sniffer.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\src\main\java\com\google\android\exoplayer\extractor\mp4\Track.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\src\main\java\com\google\android\exoplayer\extractor\mp4\TrackEncryptionBox.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\src\main\java\com\google\android\exoplayer\extractor\mp4\TrackFragment.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\src\main\java\com\google\android\exoplayer\extractor\mp4\TrackSampleTable.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\src\main\java\com\google\android\exoplayer\extractor\ts\Ac3Reader.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\src\main\java\com\google\android\exoplayer\extractor\ts\AdtsExtractor.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\src\main\java\com\google\android\exoplayer\extractor\ts\AdtsReader.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\src\main\java\com\google\android\exoplayer\extractor\ts\ElementaryStreamReader.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\src\main\java\com\google\android\exoplayer\extractor\ts\H264Reader.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\src\main\java\com\google\android\exoplayer\extractor\ts\H265Reader.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\src\main\java\com\google\android\exoplayer\extractor\ts\Id3Reader.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\src\main\java\com\google\android\exoplayer\extractor\ts\MpegAudioReader.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\src\main\java\com\google\android\exoplayer\extractor\ts\NalUnitTargetBuffer.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\src\main\java\com\google\android\exoplayer\extractor\ts\SeiReader.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\src\main\java\com\google\android\exoplayer\extractor\ts\TsExtractor.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\src\main\java\com\google\android\exoplayer\extractor\webm\DefaultEbmlReader.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\src\main\java\com\google\android\exoplayer\extractor\webm\EbmlReader.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\src\main\java\com\google\android\exoplayer\extractor\webm\EbmlReaderOutput.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\src\main\java\com\google\android\exoplayer\extractor\webm\Sniffer.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\src\main\java\com\google\android\exoplayer\extractor\webm\VarintReader.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\src\main\java\com\google\android\exoplayer\extractor\webm\WebmExtractor.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\src\main\java\com\google\android\exoplayer\hls\Aes128DataSource.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\src\main\java\com\google\android\exoplayer\hls\HlsChunkSource.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\src\main\java\com\google\android\exoplayer\hls\HlsExtractorWrapper.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\src\main\java\com\google\android\exoplayer\hls\HlsMasterPlaylist.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\src\main\java\com\google\android\exoplayer\hls\HlsMediaPlaylist.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\src\main\java\com\google\android\exoplayer\hls\HlsParserUtil.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\src\main\java\com\google\android\exoplayer\hls\HlsPlaylist.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\src\main\java\com\google\android\exoplayer\hls\HlsPlaylistParser.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\src\main\java\com\google\android\exoplayer\hls\HlsSampleSource.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\src\main\java\com\google\android\exoplayer\hls\Subtitle.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\src\main\java\com\google\android\exoplayer\hls\TsChunk.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\src\main\java\com\google\android\exoplayer\hls\Variant.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\src\main\java\com\google\android\exoplayer\metadata\GeobMetadata.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\src\main\java\com\google\android\exoplayer\metadata\Id3Parser.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\src\main\java\com\google\android\exoplayer\metadata\MetadataParser.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\src\main\java\com\google\android\exoplayer\metadata\MetadataTrackRenderer.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\src\main\java\com\google\android\exoplayer\metadata\PrivMetadata.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\src\main\java\com\google\android\exoplayer\metadata\TxxxMetadata.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\src\main\java\com\google\android\exoplayer\smoothstreaming\SmoothStreamingChunkSource.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\src\main\java\com\google\android\exoplayer\smoothstreaming\SmoothStreamingManifest.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\src\main\java\com\google\android\exoplayer\smoothstreaming\SmoothStreamingManifestParser.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\src\main\java\com\google\android\exoplayer\text\CaptionStyleCompat.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\src\main\java\com\google\android\exoplayer\text\Cue.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\src\main\java\com\google\android\exoplayer\text\CuePainter.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\src\main\java\com\google\android\exoplayer\text\Subtitle.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\src\main\java\com\google\android\exoplayer\text\SubtitleLayout.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\src\main\java\com\google\android\exoplayer\text\SubtitleParser.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\src\main\java\com\google\android\exoplayer\text\SubtitleParserHelper.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\src\main\java\com\google\android\exoplayer\text\TextRenderer.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\src\main\java\com\google\android\exoplayer\text\TextTrackRenderer.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\src\main\java\com\google\android\exoplayer\text\eia608\ClosedCaption.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\src\main\java\com\google\android\exoplayer\text\eia608\ClosedCaptionCtrl.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\src\main\java\com\google\android\exoplayer\text\eia608\ClosedCaptionList.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\src\main\java\com\google\android\exoplayer\text\eia608\ClosedCaptionText.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\src\main\java\com\google\android\exoplayer\text\eia608\Eia608Parser.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\src\main\java\com\google\android\exoplayer\text\eia608\Eia608TrackRenderer.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\src\main\java\com\google\android\exoplayer\text\subrip\SubripParser.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\src\main\java\com\google\android\exoplayer\text\subrip\SubripSubtitle.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\src\main\java\com\google\android\exoplayer\text\ttml\TtmlNode.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\src\main\java\com\google\android\exoplayer\text\ttml\TtmlParser.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\src\main\java\com\google\android\exoplayer\text\ttml\TtmlSubtitle.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\src\main\java\com\google\android\exoplayer\text\tx3g\Tx3gParser.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\src\main\java\com\google\android\exoplayer\text\tx3g\Tx3gSubtitle.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\src\main\java\com\google\android\exoplayer\text\webvtt\WebvttCue.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\src\main\java\com\google\android\exoplayer\text\webvtt\WebvttParser.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\src\main\java\com\google\android\exoplayer\text\webvtt\WebvttSubtitle.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\src\main\java\com\google\android\exoplayer\upstream\Allocation.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\src\main\java\com\google\android\exoplayer\upstream\Allocator.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\src\main\java\com\google\android\exoplayer\upstream\AssetDataSource.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\src\main\java\com\google\android\exoplayer\upstream\BandwidthMeter.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\src\main\java\com\google\android\exoplayer\upstream\ByteArrayDataSink.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\src\main\java\com\google\android\exoplayer\upstream\ByteArrayDataSource.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\src\main\java\com\google\android\exoplayer\upstream\ContentDataSource.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\src\main\java\com\google\android\exoplayer\upstream\DataSink.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\src\main\java\com\google\android\exoplayer\upstream\DataSource.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\src\main\java\com\google\android\exoplayer\upstream\DataSourceInputStream.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\src\main\java\com\google\android\exoplayer\upstream\DataSpec.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\src\main\java\com\google\android\exoplayer\upstream\DefaultAllocator.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\src\main\java\com\google\android\exoplayer\upstream\DefaultBandwidthMeter.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\src\main\java\com\google\android\exoplayer\upstream\DefaultHttpDataSource.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\src\main\java\com\google\android\exoplayer\upstream\DefaultUriDataSource.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\src\main\java\com\google\android\exoplayer\upstream\FileDataSource.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\src\main\java\com\google\android\exoplayer\upstream\HttpDataSource.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\src\main\java\com\google\android\exoplayer\upstream\Loader.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\src\main\java\com\google\android\exoplayer\upstream\NetworkLock.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\src\main\java\com\google\android\exoplayer\upstream\PriorityDataSource.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\src\main\java\com\google\android\exoplayer\upstream\TeeDataSource.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\src\main\java\com\google\android\exoplayer\upstream\TransferListener.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\src\main\java\com\google\android\exoplayer\upstream\UdpDataSource.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\src\main\java\com\google\android\exoplayer\upstream\UnexpectedLengthException.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\src\main\java\com\google\android\exoplayer\upstream\UriDataSource.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\src\main\java\com\google\android\exoplayer\upstream\UriLoadable.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\src\main\java\com\google\android\exoplayer\upstream\cache\Cache.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\src\main\java\com\google\android\exoplayer\upstream\cache\CacheDataSink.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\src\main\java\com\google\android\exoplayer\upstream\cache\CacheDataSource.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\src\main\java\com\google\android\exoplayer\upstream\cache\CacheEvictor.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\src\main\java\com\google\android\exoplayer\upstream\cache\CacheSpan.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\src\main\java\com\google\android\exoplayer\upstream\cache\LeastRecentlyUsedCacheEvictor.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\src\main\java\com\google\android\exoplayer\upstream\cache\NoOpCacheEvictor.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\src\main\java\com\google\android\exoplayer\upstream\cache\SimpleCache.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\src\main\java\com\google\android\exoplayer\util\Ac3Util.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\src\main\java\com\google\android\exoplayer\util\Assertions.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\src\main\java\com\google\android\exoplayer\util\Clock.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\src\main\java\com\google\android\exoplayer\util\CodecSpecificDataUtil.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\src\main\java\com\google\android\exoplayer\util\DebugTextViewHelper.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\src\main\java\com\google\android\exoplayer\util\LongArray.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\src\main\java\com\google\android\exoplayer\util\ManifestFetcher.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\src\main\java\com\google\android\exoplayer\util\MimeTypes.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\src\main\java\com\google\android\exoplayer\util\MpegAudioHeader.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\src\main\java\com\google\android\exoplayer\util\NalUnitUtil.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\src\main\java\com\google\android\exoplayer\util\ParsableBitArray.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\src\main\java\com\google\android\exoplayer\util\ParsableByteArray.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\src\main\java\com\google\android\exoplayer\util\PlayerControl.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\src\main\java\com\google\android\exoplayer\util\Predicate.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\src\main\java\com\google\android\exoplayer\util\PriorityHandlerThread.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\src\main\java\com\google\android\exoplayer\util\SlidingPercentile.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\src\main\java\com\google\android\exoplayer\util\SystemClock.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\src\main\java\com\google\android\exoplayer\util\TraceUtil.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\src\main\java\com\google\android\exoplayer\util\UriUtil.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\src\main\java\com\google\android\exoplayer\util\Util.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\src\main\java\com\google\android\exoplayer\util\VerboseLogUtil.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\src\main\project.properties" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lgallet\MyApplication\library\src\main\res\.README.txt" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="MyApplication.iws" />
@@ -63,48 +688,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="MainActivity.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="MainActivity.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/lgallet/myapplication/MainActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="55" column="22" selection-start-line="55" selection-start-column="22" selection-end-line="55" selection-end-column="22" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AndroidManifest.xml" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.6504348">
-              <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="activity_main.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
-          <provider editor-type-id="android-designer">
-            <state />
-          </provider>
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-17.344828">
-              <caret line="71" column="36" selection-start-line="71" selection-start-column="36" selection-end-line="71" selection-end-column="36" />
-              <folding>
-                <element signature="e#490#508#0" expanded="true" />
-                <element signature="e#1228#1244#0" expanded="true" />
-                <element signature="e#1891#1905#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="strings.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/res/values/strings.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-1.8888888">
-              <caret line="3" column="21" selection-start-line="3" selection-start-column="21" selection-end-line="3" selection-end-column="21" />
+            <state vertical-scroll-proportion="0.07798165">
+              <caret line="26" column="13" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
               <folding />
             </state>
           </provider>
@@ -1542,15 +2130,6 @@
       <projects_view />
     </option>
   </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/example/lgallet/myapplication/MainActivity.java" />
-        <option value="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
-      </list>
-    </option>
-  </component>
   <component name="NamedScopeManager">
     <order />
   </component>
@@ -1583,7 +2162,7 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="AndroidView">
         <subPane>
           <PATH>
@@ -1600,64 +2179,6 @@
             <PATH_ELEMENT>
               <option name="myItemId" value="app" />
               <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="res" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="values" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderTypeNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MyApplication" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="res" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MyApplication" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="res" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="menu" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderTypeNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MyApplication" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="res" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="layout" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderTypeNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
@@ -1684,22 +2205,23 @@
               <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="manifests" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidManifestsGroupNode" />
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidSourceTypeNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="myapplication" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidPsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane" />
-      <pane id="Scope" />
+      <pane id="Scratches" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="recentsLimit" value="5" />
-    <property name="FullScreen" value="false" />
-    <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_SERIALS" value="HT4A1JT01009" />
-    <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_AVD" value="Nexus_5_API_23_x86" />
   </component>
   <component name="RunManager" selected="Android Application.app">
     <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
@@ -1849,15 +2371,12 @@
     </configuration>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
-  <component name="SvnConfiguration">
-    <configuration />
-  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="eec16827-0be8-413a-aa2d-5a72d89df15a" name="Default" comment="" />
-      <created>1442944919143</created>
+      <changelist id="1103aa65-f89a-4d14-96ff-d26c3ed831e1" name="Default" comment="" />
+      <created>1442947526049</created>
       <option name="number" value="Default" />
-      <updated>1442944919143</updated>
+      <updated>1442947526049</updated>
     </task>
     <servers />
   </component>
@@ -1866,41 +2385,32 @@
     <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32995737" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
-  </component>
-  <component name="Vcs.Log.UiProperties">
-    <option name="RECENTLY_FILTERED_USER_GROUPS">
-      <collection />
-    </option>
-    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
-      <collection />
-    </option>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
@@ -1912,47 +2422,8 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/lgallet/myapplication/MainActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/strings.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.8888888">
-          <caret line="3" column="21" selection-start-line="3" selection-start-column="21" selection-end-line="3" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-17.344828">
-          <caret line="71" column="36" selection-start-line="71" selection-start-column="36" selection-end-line="71" selection-end-column="36" />
-          <folding>
-            <element signature="e#490#508#0" expanded="true" />
-            <element signature="e#1228#1244#0" expanded="true" />
-            <element signature="e#1891#1905#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/lgallet/myapplication/MainActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="55" column="22" selection-start-line="55" selection-start-column="22" selection-end-line="55" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6504348">
-          <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.07798165">
+          <caret line="26" column="13" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
           <folding />
         </state>
       </provider>
