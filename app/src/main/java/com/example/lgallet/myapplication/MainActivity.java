@@ -17,8 +17,10 @@ import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ListView;
+import android.widget.MediaController;
 import android.widget.TextView;
 import android.widget.Toast;
+import android.widget.VideoView;
 
 import java.util.ArrayList;
 
@@ -32,6 +34,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     ArrayList mNameList = new ArrayList();
     ShareActionProvider mShareActionProvider;
 
+    VideoView video;
+    MediaController mp;
+
     private static final String PREFS = "prefs";
     private static final String PREF_NAME = "name";
     SharedPreferences mSharedPreferences;
@@ -41,6 +46,14 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        video = (VideoView) findViewById(R.id.video_view);
+        video.setVideoPath("http://brightcove04.brightcove.com/23/3281700252001/201509/1550/3281700252001_4500975737001_FONSMART-2015-09-22-07-39-42.mp4");
+        mp = new MediaController(this);
+        mp.setAnchorView(video);
+        video.setMediaController(mp);
+
+        video.start();
 
         // 1. Access the TextView defined in layout XML
         // and then set its text
