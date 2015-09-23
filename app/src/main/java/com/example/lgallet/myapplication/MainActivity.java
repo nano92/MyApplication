@@ -22,6 +22,8 @@ import android.widget.TextView;
 import android.widget.Toast;
 import android.widget.VideoView;
 
+import com.google.android.exoplayer.ExoPlayer;
+
 import java.util.ArrayList;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener, AdapterView.OnItemClickListener {
@@ -33,6 +35,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     ArrayAdapter mArrayAdapter;
     ArrayList mNameList = new ArrayList();
     ShareActionProvider mShareActionProvider;
+
 
     VideoView video;
     MediaController mp;
