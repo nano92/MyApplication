@@ -1,5 +1,6 @@
 package com.example.lgallet.myapplication;
 
+import android.app.Activity;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.SharedPreferences;
@@ -23,6 +24,7 @@ import android.widget.Toast;
 import android.widget.VideoView;
 
 import com.google.android.exoplayer.ExoPlayer;
+import com.google.android.exoplayer.SampleSource;
 
 import java.util.ArrayList;
 
@@ -35,7 +37,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     ArrayAdapter mArrayAdapter;
     ArrayList mNameList = new ArrayList();
     ShareActionProvider mShareActionProvider;
-
 
     VideoView video;
     MediaController mp;
