@@ -1,11 +1,19 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+
+
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="horizontal"
-    tools:context=".MainActivity">
+    tools:context=".MainActivity"
+    android:id="@+id/MyApp">
 
-
+    <!--data>
+        <variable
+            android:name="result"
+            android:type="com.example.lgallet.myapplication.BindableSupportLevel"/>
+    </data-->
 
 
 
@@ -65,16 +73,41 @@
 
 
 </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
 
-   <VideoView
-       android:layout_width="500dp"
-       android:layout_height="400dp"
-       android:layout_marginLeft="150dp"
-       android:layout_marginTop="50dp"
-       android:id="@+id/video_view"/>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/check_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="30dp"
+        android:text="@string/check_button"
+        android:layout_gravity="center_vertical"
+        />
+
+    <VideoView
+        android:layout_width="528dp"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginBottom="100dp"
+        android:id="@+id/video_view"/>
 
 
-    <!-- Set OnClickListener to trigger results when pressed -->
+    <!--Button
+        android:id="@+id/check_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:text="@string/button" />
+
+    <!- Set OnClickListener to trigger results when pressed -->
     <!--Button
         android:id="@+id/main_button"
         android:layout_width="wrap_content"

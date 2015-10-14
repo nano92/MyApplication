@@ -1,6 +1,7 @@
 package com.example.lgallet.myapplication;
 
 import android.app.Activity;
+import android.content.Context;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.SharedPreferences;
@@ -23,8 +24,19 @@ import android.widget.TextView;
 import android.widget.Toast;
 import android.widget.VideoView;
 
+import com.github.seanzor.webgl.detect.OnReceiveDetectJsResult;
+import com.github.seanzor.webgl.detect.WebGLDetector;
+import com.github.seanzor.webgl.detect.WebGLSupportLevel;
 import com.google.android.exoplayer.ExoPlayer;
 import com.google.android.exoplayer.SampleSource;
+
+import android.databinding.DataBindingUtil;
+import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
+import com.github.seanzor.webgl.detect.OnReceiveDetectJsResult;
+import com.github.seanzor.webgl.detect.WebGLDetector;
+import com.github.seanzor.webgl.detect.WebGLSupportLevel;
+
 
 import java.util.ArrayList;
 
@@ -38,6 +50,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     ArrayList mNameList = new ArrayList();
     ShareActionProvider mShareActionProvider;
 
+    Button checkButton;
+    //final private BindableSupportLevel mBindableSupportLevel = new BindableSupportLevel();
+
     VideoView video;
     MediaController mp;
 
@@ -50,6 +65,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        final Context context = this;
+
 
         video = (VideoView) findViewById(R.id.video_view);
         video.setVideoPath("http://brightcove04.brightcove.com/23/3281700252001/201509/1550/3281700252001_4500975737001_FONSMART-2015-09-22-07-39-42.mp4");
@@ -67,6 +85,33 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         // 2. Access the Button defined in layout XML and listen for it here
         mainButton= (Button) findViewById(R.id.main_button);
         mainButton.setOnClickListener(this);
+
+        checkButton = (Button) findViewById(R.id.check_button);
+       checkButton.setOnClickListener(new View.OnClickListener() {
+          @Override
+           public void onClick(View v) {
+                WebGLDetector.detect(context, new OnReceiveDetectJsResult() {
+                    @Override
+                    public void onReceiveDetectJsResult(WebGLSupportLevel supportLevel) {
+                        Log.d("state", "state" + supportLevel.getCode());
+                        switch (supportLevel) {
+                            case UNKNOWN:
+                                Toast.makeText(getApplicationContext(), "unknown", Toast.LENGTH_LONG).show();
+                                break;
+                            case NOT_SUPPORTED:
+                                Toast.makeText(getApplicationContext(), "Not supported", Toast.LENGTH_LONG).show();
+                                break;
+                            case SUPPORTED_DISABLED:
+                                Toast.makeText(getApplicationContext(), "supported but disabled", Toast.LENGTH_LONG).show();
+                                break;
+                            case SUPPORTED:
+                                Toast.makeText(getApplicationContext(), "supported", Toast.LENGTH_LONG).show();
+                                break;
+                        }
+                    }
+                });
+            }
+        });
 
         // 3. Access the EditText defined in layout XML
         mainEditText = (EditText) findViewById(R.id.main_edittext);
