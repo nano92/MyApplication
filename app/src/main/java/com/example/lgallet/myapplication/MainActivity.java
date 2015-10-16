@@ -1,6 +1,6 @@
 package com.example.lgallet.myapplication;
 
-import android.app.Activity;
+
 import android.content.Context;
 import android.content.DialogInterface;
 import android.content.Intent;
@@ -15,7 +15,6 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.webkit.WebView;
-
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.Button;
@@ -56,6 +55,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     private static final String PREFS = "prefs";
     private static final String PREF_NAME = "name";
     SharedPreferences mSharedPreferences;
+    private int level;
 
 
     @Override
@@ -98,6 +98,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             WebGLDetector.detect(testBrowser, new OnReceiveDetectJsResult() {
                 @Override
                 public void onReceiveDetectJsResult(WebGLSupportLevel supportLevel) {
+                    level = supportLevel.getCode();
                     switch (supportLevel) {
                         case UNKNOWN:
                             Toast.makeText(getApplicationContext(), "unknown", Toast.LENGTH_LONG).show();
@@ -110,13 +111,15 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                             break;
                         case SUPPORTED:
                             Toast.makeText(getApplicationContext(), "supported", Toast.LENGTH_LONG).show();
-                            Intent intent = new Intent(context, WebViewActivity.class);
-                            startActivity(intent);
+                            openWebMap(context);
                             break;
 
                     }
                 }
             });
+
+
+
 
 
 
@@ -165,6 +168,11 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         // 7. Greet the user, or ask for their name if new
         displayWelcome();
 
+    }
+
+    private void openWebMap(Context context){
+        Intent intent = new Intent(context, WebViewActivity.class);
+        startActivity(intent);
     }
 
     public void displayWelcome() {

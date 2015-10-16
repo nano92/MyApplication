@@ -29,8 +29,8 @@ public class WebGLDetector {
 
             //webView.loadDataWithBaseURL("https://get.webgl.org/","<!DOCTYPE html><html><head></head></html>", "text/html; charset=UTF-8", (String)null, null);
           // webView.loadData("<!DOCTYPE html><html><head></head><body><canvas id=\"canvas\" width=\"300\" height=\"300\"></canvas> </body></html>", "text/html; charset=UTF-8", (String)null);
-           // webView1.loadData(BLANK_HTML_PAGE,"text/html; charset=UTF-8", null);
-            webView.loadUrl("http://rnd.pelmorex.com/rasteradvection/");
+            webView1.loadData(BLANK_HTML_PAGE,"text/html; charset=UTF-8", null);
+            //webView.loadUrl("http://rnd.pelmorex.com/rasteradvection/");
            webView1.setWebViewClient(new WebViewClientChecker(detectResult, new OnFinishListener() {
                @Override
                public void finishedJsDetection() {
@@ -38,8 +38,8 @@ public class WebGLDetector {
                    webView1.clearCache(true);
                    webView1.loadUrl("about:blank");
                    webView1.pauseTimers();
-                   webView1.setWebViewClient((WebViewClient) null);
-               */}
+                   webView1.setWebViewClient((WebViewClient) null);*/
+               }
            }));
         }
 
