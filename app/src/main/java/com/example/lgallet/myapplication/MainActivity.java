@@ -14,6 +14,7 @@ import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
+import android.webkit.WebView;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.Button;
@@ -24,21 +25,18 @@ import android.widget.TextView;
 import android.widget.Toast;
 import android.widget.VideoView;
 
-import com.github.seanzor.webgl.detect.OnReceiveDetectJsResult;
-import com.github.seanzor.webgl.detect.WebGLDetector;
-import com.github.seanzor.webgl.detect.WebGLSupportLevel;
+
 import com.google.android.exoplayer.ExoPlayer;
 import com.google.android.exoplayer.SampleSource;
 
-import android.databinding.DataBindingUtil;
-import android.os.Bundle;
-import android.support.v7.app.AppCompatActivity;
-import com.github.seanzor.webgl.detect.OnReceiveDetectJsResult;
-import com.github.seanzor.webgl.detect.WebGLDetector;
-import com.github.seanzor.webgl.detect.WebGLSupportLevel;
+
 
 
 import java.util.ArrayList;
+
+import seanzorWebGLdetect.OnReceiveDetectJsResult;
+import seanzorWebGLdetect.WebGLDetector;
+import seanzorWebGLdetect.WebGLSupportLevel;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener, AdapterView.OnItemClickListener {
 
@@ -49,7 +47,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     ArrayAdapter mArrayAdapter;
     ArrayList mNameList = new ArrayList();
     ShareActionProvider mShareActionProvider;
-
+    WebView myBrowser;
     Button checkButton;
     //final private BindableSupportLevel mBindableSupportLevel = new BindableSupportLevel();
 
@@ -66,14 +64,16 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        final Context context = this;
+
+
 
 
         video = (VideoView) findViewById(R.id.video_view);
-        video.setVideoPath("http://brightcove04.brightcove.com/23/3281700252001/201509/1550/3281700252001_4500975737001_FONSMART-2015-09-22-07-39-42.mp4");
+        video.setVideoPath("http://techslides.com/demos/sample-videos/small.mp4");
         mp = new MediaController(this);
         mp.setAnchorView(video);
         video.setMediaController(mp);
+//        video.la
 
         video.start();
 
@@ -85,15 +85,20 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         // 2. Access the Button defined in layout XML and listen for it here
         mainButton= (Button) findViewById(R.id.main_button);
         mainButton.setOnClickListener(this);
+        myBrowser = (WebView)findViewById(R.id.mybrowser);
+
+
+        final String useragent = myBrowser.getSettings().getUserAgentString();
 
         checkButton = (Button) findViewById(R.id.check_button);
        checkButton.setOnClickListener(new View.OnClickListener() {
           @Override
            public void onClick(View v) {
-                WebGLDetector.detect(context, new OnReceiveDetectJsResult() {
+                WebGLDetector.detect(myBrowser, new OnReceiveDetectJsResult() {
                     @Override
                     public void onReceiveDetectJsResult(WebGLSupportLevel supportLevel) {
                         Log.d("state", "state" + supportLevel.getCode());
+                        Log.d("state", "Webkit" + useragent);
                         switch (supportLevel) {
                             case UNKNOWN:
                                 Toast.makeText(getApplicationContext(), "unknown", Toast.LENGTH_LONG).show();
@@ -107,6 +112,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                             case SUPPORTED:
                                 Toast.makeText(getApplicationContext(), "supported", Toast.LENGTH_LONG).show();
                                 break;
+
                         }
                     }
                 });

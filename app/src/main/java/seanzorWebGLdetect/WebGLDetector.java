@@ -4,34 +4,40 @@ package seanzorWebGLdetect;
  * From package com.github.seanzor.webgl.detect
  * Edited by LuisEnrique on 2015-10-14.
  */
-import android.content.Context;
-import android.os.Build.VERSION;
+
+import android.os.Build;
 import android.support.annotation.NonNull;
 import android.webkit.WebView;
 import android.webkit.WebViewClient;
-import com.github.seanzor.webgl.detect.OnReceiveDetectJsResult;
-import com.github.seanzor.webgl.detect.WebGLSupportLevel;
+
+
 
 public class WebGLDetector {
-    private static final String BLANK_HTML_PAGE = "<!DOCTYPE html><html><head></head></html>";
+    private static final String BLANK_HTML_PAGE = "<!doctype html><html><head></head>><body></body></html>";
 
     public WebGLDetector() {
     }
 
-    public static void detect(@NonNull Context activityContext, @NonNull OnReceiveDetectJsResult detectResult) {
-        if(VERSION.SDK_INT < 21) {
+    public static void detect(@NonNull WebView webView, @NonNull OnReceiveDetectJsResult detectResult) {
+        if(android.os.Build.VERSION.SDK_INT < Build.VERSION_CODES.LOLLIPOP) {
             detectResult.onReceiveDetectJsResult(WebGLSupportLevel.NOT_SUPPORTED);
         } else {
-            final WebView webView = new WebView(activityContext);
-            webView.getSettings().setJavaScriptEnabled(true);
-            webView.loadData("<!DOCTYPE html><html><head></head></html>", "text/html; charset=UTF-8", (String)null);
-            webView.setWebViewClient(new WebViewClientChecker(detectResult, new OnFinishListener() {
+
+            final WebView webView1 = webView;
+            webView1.getSettings().setJavaScriptEnabled(true);
+
+            //webView.loadDataWithBaseURL("https://get.webgl.org/","<!DOCTYPE html><html><head></head></html>", "text/html; charset=UTF-8", (String)null, null);
+          // webView.loadData("<!DOCTYPE html><html><head></head><body><canvas id=\"canvas\" width=\"300\" height=\"300\"></canvas> </body></html>", "text/html; charset=UTF-8", (String)null);
+            webView1.loadData(BLANK_HTML_PAGE,"text/html; charset=UTF-8", null);
+            //webView.loadUrl("https://get.webgl.org/");
+           webView1.setWebViewClient(new WebViewClientChecker(detectResult, new OnFinishListener() {
+                @Override
                 public void finishedJsDetection() {
-                    webView.clearHistory();
-                    webView.clearCache(true);
-                    webView.loadUrl("about:blank");
-                    webView.pauseTimers();
-                    webView.setWebViewClient((WebViewClient)null);
+                    webView1.clearHistory();
+                    webView1.clearCache(true);
+                    webView1.loadUrl("about:blank");
+                    webView1.pauseTimers();
+                    webView1.setWebViewClient((WebViewClient)null);
                 }
             }));
         }
