@@ -15,6 +15,7 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.webkit.WebView;
+
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.Button;
@@ -26,8 +27,6 @@ import android.widget.Toast;
 import android.widget.VideoView;
 
 
-import com.google.android.exoplayer.ExoPlayer;
-import com.google.android.exoplayer.SampleSource;
 
 
 
@@ -47,7 +46,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     ArrayAdapter mArrayAdapter;
     ArrayList mNameList = new ArrayList();
     ShareActionProvider mShareActionProvider;
-    WebView myBrowser;
+    WebView testBrowser;
     Button checkButton;
     //final private BindableSupportLevel mBindableSupportLevel = new BindableSupportLevel();
 
@@ -66,7 +65,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
 
 
-
+        final Context context = this;
 
         video = (VideoView) findViewById(R.id.video_view);
         video.setVideoPath("http://techslides.com/demos/sample-videos/small.mp4");
@@ -85,16 +84,45 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         // 2. Access the Button defined in layout XML and listen for it here
         mainButton= (Button) findViewById(R.id.main_button);
         mainButton.setOnClickListener(this);
-        myBrowser = (WebView)findViewById(R.id.mybrowser);
 
+        testBrowser = (WebView)findViewById(R.id.testBrowser);
 
-        final String useragent = myBrowser.getSettings().getUserAgentString();
+        //myBrowser.getSettings().setJavaScriptEnabled(true);
+        //final String useragent = myBrowser.getSettings().getUserAgentString();
 
         checkButton = (Button) findViewById(R.id.check_button);
        checkButton.setOnClickListener(new View.OnClickListener() {
           @Override
            public void onClick(View v) {
-                WebGLDetector.detect(myBrowser, new OnReceiveDetectJsResult() {
+
+            WebGLDetector.detect(testBrowser, new OnReceiveDetectJsResult() {
+                @Override
+                public void onReceiveDetectJsResult(WebGLSupportLevel supportLevel) {
+                    switch (supportLevel) {
+                        case UNKNOWN:
+                            Toast.makeText(getApplicationContext(), "unknown", Toast.LENGTH_LONG).show();
+                            break;
+                        case NOT_SUPPORTED:
+                            Toast.makeText(getApplicationContext(), "Not supported", Toast.LENGTH_LONG).show();
+                            break;
+                        case SUPPORTED_DISABLED:
+                            Toast.makeText(getApplicationContext(), "supported but disabled", Toast.LENGTH_LONG).show();
+                            break;
+                        case SUPPORTED:
+                            Toast.makeText(getApplicationContext(), "supported", Toast.LENGTH_LONG).show();
+                            Intent intent = new Intent(context, WebViewActivity.class);
+                            startActivity(intent);
+                            break;
+
+                    }
+                }
+            });
+
+
+
+
+
+                /*WebGLDetector.detect(myBrowser, new OnReceiveDetectJsResult() {
                     @Override
                     public void onReceiveDetectJsResult(WebGLSupportLevel supportLevel) {
                         Log.d("state", "state" + supportLevel.getCode());
@@ -115,7 +143,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
                         }
                     }
-                });
+                });*/
             }
         });
 

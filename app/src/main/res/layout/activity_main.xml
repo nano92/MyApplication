@@ -98,7 +98,7 @@
 
         />
     <WebView
-        android:id="@+id/mybrowser"
+        android:id="@+id/testBrowser"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" />
 
